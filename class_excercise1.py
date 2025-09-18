@@ -1,8 +1,4 @@
 # This is the third in class demo #
-'''
-we will be doing stuff, or so Hani claims
-this could be multiple lines
-'''
 
 
 # Review
@@ -41,4 +37,8 @@ print(str(num_as_num)) # same thing, python casts with print statement
 # Using the input function, input function always returns a string (text)
 
 year_of_birth = int(input("Please enter your year of birth\n"))
-print("You age is", 2025 - year_of_birth)
+Month_of_birth = int(input("Please enter your month of birth (1-12)\n"))
+if Month_of_birth > 9:
+        print("Your age is", 2024 - year_of_birth)
+else:
+    print("Your age is", 2025 - year_of_birth)
