@@ -22,3 +22,11 @@ print(y, type(y))
 print(z, type(z))
 print(type(print))
 print(type(print()))
+
+# some functions call : print, input, int, float, str, bool
+
+num_as_text = "43"
+num_as_num = int(num_as_text)
+
+print(num_as_text)
+print(num_as_num)
