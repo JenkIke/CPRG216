@@ -39,6 +39,6 @@ print(str(num_as_num)) # same thing, python casts with print statement
 year_of_birth = int(input("Please enter your year of birth\n"))
 Month_of_birth = int(input("Please enter your month of birth (1-12)\n"))
 if Month_of_birth > 9:
-        print("Your age is", 2024 - year_of_birth)
+    print("Your age is", 2024 - year_of_birth)
 else:
     print("Your age is", 2025 - year_of_birth)
