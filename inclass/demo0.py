@@ -1,11 +1,10 @@
-name = str(input("What is your name? "))
-age = int(input("How old are you? "))
-y = 4.5
-inclass = True
-playing = False
+name = 'Guy'
+age =  12
+gpa = 2.999
 
-print(name)
-print(age)
-print(y)
-print(inclass)
-print(playing)
+txt = "The name is {1:s}, the age is {0:d}, the gpa is {2:f}.".format(age,name,gpa)
+print(txt)
+
+data = ['apple', 'banana', 'orange']
+
+print(data[-3])
